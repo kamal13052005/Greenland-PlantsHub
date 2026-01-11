@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></head>
+    <link rel="icon" href="./img/products-logo.webp">
+</head>
+<style>
+        body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+<body>
+        <!-- navbar -->
+    <nav class="bg-green-100 shadow-xl flex justify-between p-3 items-center sticky top-0 z-10">
+        <div class="">
+            <h1 class="text-2xl font-medium">GREENDEN</h1>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="w-6 h-6 sm:hidden md:*:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+        <div class="gap-5 cursor-pointer text-gray-600  hidden sm:flex md:flex">
+              <a href="index.html" class="hover:underline hover:text-black">Home</a>
+            <a href="products.html" class="hover:underline hover:text-black">Products</a>
+            <a href="contact.html"class="hover:underline hover:text-black">Contact</a>
+        </div>
+    </nav>  
+    <!-- Header section -->
+    <section class="text-center mt-4">
+        <h1 class="font-bold text-3xl">Our Products</h1>
+        <input type="text" class="mt-3 border-2 cursor-pointer border-green-200 p-3 w-1/2 rounded-full transform transition-all duration-300 ease-in-out focus:w-3/4 focus:border-green-500 focus:outline-none" placeholder="Search For a Products...">
+                <div class="text-center grid grid-cols-2 mt-5 md:grid-cols-4">
+            <div class=" m-2">
+                <img src="./img/flower-pot-1.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 ease-out hover:-translate-y-2 rounded-lg cursor-pointer">
+                  <h3 class="font-bold text-lg mt-2">Clay pot</h3>
+                <p class="text-xl">Rose</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="m-2">
+                <img src="./img/flower-pot-2.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+               <h3 class="font-bold text-lg mt-2">Ceramic pot</h3>
+                <p class="text-xl">Orchid</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="mt-2">
+                <img src="./img/flower-pot-3.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+                 <h3 class="font-bold text-lg mt-2">Plastic pot</h3>
+                <p class="text-xl">Petunia</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="mt-2">
+                <img src="./img/flower-pot-4.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+                <h3 class="font-bold text-lg mt-2">Cement pot</h3>
+                <p class="text-xl">Sunflower</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+                        <div class="mt-2">
+                <img src="./img/flower-pot-5.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 ease-out hover:-translate-y-2 rounded-lg cursor-pointer">
+                <h3 class="font-bold text-lg mt-2">Hanging pot</h3>
+                <p class="text-xl">Money plant</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="mt-2">
+                <img src="./img/flower-pot-6.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+                <h3 class="font-bold text-lg mt-2">Wooden pot</h3>
+                <p class="text-xl">Lavender</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="mt-2">
+                <img src="./img/flower-pot-7.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+                <h3 class="font-bold text-lg mt-2">Metal pot</h3>
+                <p class="text-xl">Geranium</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+            <div class="mt-2">
+                <img src="./img/flower-pot-8.jpg" alt=""
+                    class="inline-block mt-2 shadow-lg transform transition-all duration-300 hover:-translate-y-2 rounded-lg cursor-pointer">
+                <h3 class="font-bold text-lg mt-2">Glass pot</h3>
+                <p class="text-xl">Lucky bamboo</p>
+                <p class="font-bold">₹ 799/-</p>
+            </div>
+        </div>
+    </section>
+        <!-- Footer Section -->
+    <section class="bg-green-100 p-3 flex flex-col gap-3 mt-3 shadow-xl">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest</p>
+        <p>@ 2021 Greenday.com</p>
+    </section>
+</body>
+</html>
